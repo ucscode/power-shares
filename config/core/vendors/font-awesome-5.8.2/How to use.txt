@@ -1,0 +1,18 @@
+HOW TO USE:
+=============
+
+1. EXTRACT THE FONT-AWESOME FOLDER
+2. LINK THE STYLE SHEET NAME 'all.css' YOUR HTML DOCUMENT.
+
+E.G 
+<link rel="stylesheet" type="text/css" href="font-awesome-5.8.2/css/all.css">
+
+AND THAT'S ALL. YOU CAN NOW USE FONT AWESOME LOCALLY!
+
+
+
+
+IMPORTANT
+============
+
+DO NOT DELETE THE 'webfonts' FOLDER

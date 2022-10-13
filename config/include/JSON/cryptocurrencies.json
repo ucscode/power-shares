@@ -1,0 +1,38 @@
+[
+	{
+		"code":"BTC",
+		"name":"Bitcoin"
+	},
+	{
+		"code":"BCH",
+		"name":"Bitcoin Cash"
+	},
+	{
+		"code":"ETH",
+		"name":"Ethereum"
+	},
+	{
+		"code":"XRP",
+		"name":"Ripple"
+	},
+	{
+		"code":"USDT",
+		"name":"Tether"
+	},
+	{
+		"code":"BNB",
+		"name":"Binance"
+	},
+	{
+		"code":"SOL",
+		"name":"Solana"
+	},
+	{
+		"code":"DOGE",
+		"name":"Dogecoin"
+	},
+	{
+		"code":"TRX",
+		"name":"TRON"
+	}
+]
