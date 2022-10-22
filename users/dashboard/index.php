@@ -43,7 +43,9 @@ include "header.php";
 			<div class="card">
 				<div class="card-body">
 					<h4 class="card-title">BTC Rate</h4>
-					<div class="nomics-ticker-widget" data-name="Bitcoin" data-base="BTC" data-quote="USD"></div>
+					<div class='overflow-auto'>
+						<div class="nomics-ticker-widget" data-name="Bitcoin" data-base="BTC" data-quote="USD"></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -184,7 +186,7 @@ include "header.php";
 				<div class='card-body'>
 					<h4 class='card-title'>Testimonial</h4>
 					<?php
-						$SQL = sQuery::select( 'testimonials', "status = 'approved' ORDER BY stars DESC LIMIT 5" );
+						$SQL = sQuery::select( 'testimonials', "status = 'approved' ORDER BY stars DESC, id DESC LIMIT 5" );
 						$testimonials = $link->query( $SQL );
 						if( $testimonials->num_rows ):
 							while( $testimonial = $testimonials->fetch_assoc() ):

@@ -23,7 +23,7 @@ include "header.php";
         $SQL = "
 			SELECT * FROM shares 
 			WHERE status = 1
-			ORDER BY id DESC
+			ORDER BY increase ASC
 		";
 		
         $result = $link->query($SQL);
